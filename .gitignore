@@ -1,5 +1,6 @@
 # Compiled class file
 *.class
+build/**
 
 # Log file
 *.log
@@ -36,10 +37,12 @@ replay_pid*
 .idea/**/sqlDataSources.xml
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
+.idea/**
 
 # Gradle:
 .idea/**/gradle.xml
 .idea/**/libraries
+.gradle/**
 
 ### Eclipse Patch ###
 # Eclipse Core
