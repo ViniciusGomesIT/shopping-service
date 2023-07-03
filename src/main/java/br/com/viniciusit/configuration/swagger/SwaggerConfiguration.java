@@ -15,10 +15,10 @@ import java.util.List;
 
 public class SwaggerConfiguration {
 
-    @Value("${viniciusit.swagger.dev-url}")
+    @Value("${viniciusit.swagger.devUrl}")
     private String devUrl;
 
-    @Value("${viniciusit.swagger.prod-url}")
+    @Value("${viniciusit.swagger.prodUrl}")
     private String prodUrl;
 
     @Bean

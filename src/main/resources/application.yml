@@ -12,5 +12,7 @@ spring:
 
 viniciusit:
   swagger:
-    dev-url: "http://localhost:8080"
-    prod-url: "http://localhost:8080"
+    devUrl: "http://localhost:8080"
+    prodUrl: "http://localhost:8080"
+  serviceUser: "it.svc.shopping"
+
