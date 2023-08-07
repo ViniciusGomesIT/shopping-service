@@ -1201,3 +1201,68 @@ INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitVa
 VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 5185218, 'Maionese quero sc 20', 'MAIONESE', 1, 2.49, CURRENT_DATE(), 'it.svc.shopping'));
 INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
 VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 5185218, 'Batata monalisa', 'MAIONESE', 1.215, 7.59, CURRENT_DATE(), 'it.svc.shopping'));
+
+--15/07/2023 - 202234502
+INSERT INTO purchase_bill(uuid, puchase_bill_number, store_id, purchase_date, inclusion_date, inclusion_user) VALUES (REPLACE(random_uuid(), '-', ''), 6477222, SELECT uuid FROM store WHERE name = 'Carrefour', parsedatetime('15-07-2023', 'dd-MM-yyyy'), CURRENT_DATE(), 'it.svc.shopping');
+
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 6477222, 'Pao de forma tradiciona visconte', 'PAO', 2, 7.89, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 6477222, 'Filezinho de peito frango', 'FRANGO', 1, 17.98, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 6477222, 'Requeijão tradicional vigor 200G', 'REQUEIJAO', 2, 8.59, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 6477222, 'Iogurte natural nestle', 'IOGURTE', 5, 3.39, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 6477222, 'Bisteca Suina', 'BISTECA', 1.432, 16.90, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 6477222, 'Suco refri natural', 'SUCO', 1, 13.69, CURRENT_DATE(), 'it.svc.shopping'));
+
+--17/07/2023 - 202234502
+INSERT INTO purchase_bill(uuid, puchase_bill_number, store_id, purchase_date, inclusion_date, inclusion_user) VALUES (REPLACE(random_uuid(), '-', ''), 202234502, SELECT uuid FROM store WHERE name = 'Atacadao', parsedatetime('17-07-2023', 'dd-MM-yyyy'), CURRENT_DATE(), 'it.svc.shopping');
+
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 202234502, 'Mexirica comum', 'TANGERINA', 0.935, 11.29, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 202234502, 'Maça nacional gala', 'MACA', 1.180, 9.39, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 202234502, 'Leite em pó ninho 750G', 'LEITE', 1, 35.90, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 202234502, 'Ovo branco grande 30 Unidades', 'OVO', 1, 21.90, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 202234502, 'Saco inst BIO 60x70', 'OUTROS', 1, 0.25, CURRENT_DATE(), 'it.svc.shopping'));
+
+--05/08/2023 - 1150208
+INSERT INTO purchase_bill(uuid, puchase_bill_number, store_id, purchase_date, inclusion_date, inclusion_user) VALUES (REPLACE(random_uuid(), '-', ''), 1150208, SELECT uuid FROM store WHERE name = 'Carrefour', parsedatetime('05-08-2023', 'dd-MM-yyyy'), CURRENT_DATE(), 'it.svc.shopping');
+
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 1150208, 'Abacaxi pérola farrefour', 'ABACAXI', 1, 5.59, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 1150208, 'Schweppes citrus', 'SCHWEPPES', 6, 3.39, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 1150208, 'Pão de forma tradicional', 'PAO', 1, 9.98, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 1150208, 'Pão artesanal', 'PAO', 1, 13.99, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 1150208, 'Ovo branco grande 20 Unidades', 'OVO', 1, 17.99, CURRENT_DATE(), 'it.svc.shopping'));
+
+
+--06/08/2023 - 98235514
+INSERT INTO purchase_bill(uuid, puchase_bill_number, store_id, purchase_date, inclusion_date, inclusion_user) VALUES (REPLACE(random_uuid(), '-', ''), 98235514, SELECT uuid FROM store WHERE name = 'Atacadao', parsedatetime('06-08-2023', 'dd-MM-yyyy'), CURRENT_DATE(), 'it.svc.shopping');
+
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 98235514, 'Saco inst BIO 60x70', 'OUTROS', 1, 0.25, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 98235514, 'Bala gelatina fini', 'OUTROS', 1, 1.89, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 98235514, 'Biscoito tortuguita', 'BISCOITO', 1, 2.15, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 98235514, 'Chocolate nestle 150G', 'CHOCOLATE', 1, 8.90, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 98235514, 'Salgadinho pipos anime', 'SALGADIHO', 1, 2.99, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 98235514, 'Salgadinho lucky torcida 70G', 'SALGADIHO', 2, 1.99, CURRENT_DATE(), 'it.svc.shopping'));
+INSERT INTO shopping(uuid, purchase_bill_id, description, type, quantity, unitValue, inclusionDate, inclusionUser)
+VALUES (REPLACE(random_uuid(), '-', ''), SELECT uuid FROM purchase_bill WHERE puchase_bill_number = 98235514, 'Creme de leite piracanjuba 200G', 'CREME_LEITE', 2, 3.39, CURRENT_DATE(), 'it.svc.shopping'));
+
+
